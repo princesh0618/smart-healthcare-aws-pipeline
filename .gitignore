@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AWS / secrets — NEVER commit credentials
+.aws/
+*.pem
+credentials
+*credentials*
+.env
+
+# Large generated data (only sample data is tracked)
+data/*.csv
+!data/sample/*.csv
+*.parquet
+
+# Editor
+.vscode/
+.idea/
